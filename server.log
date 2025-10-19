@@ -1,0 +1,140 @@
+[2025-10-19T22:15:31.543Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T22:15:31.575Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T22:15:31.576Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T22:15:31.577Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T22:15:38.654Z] ::1 - GET / - Status: 200 - Size: 0 bytes
+[2025-10-19T22:15:39.314Z] ::1 - GET /favicon.ico - Status: 404 - Size: 0 bytes
+[2025-10-19T22:19:16.274Z] ::1 - GET /admin/document/passwrd - Status: 404 - Size: 0 bytes
+[2025-10-19T22:19:28.159Z] ::1 - GET /admin/etc/passwrd - Status: 404 - Size: 0 bytes
+[2025-10-19T22:19:47.934Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T22:20:37.675Z] ::1 - GET / - Status: 200 - Size: 0 bytes
+[2025-10-19T22:21:12.440Z] ::1 - GET /etc/etc/passwd - Status: 404 - Size: 0 bytes
+[2025-10-19T22:21:37.879Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T22:23:34.110Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T22:23:34.118Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T22:23:34.119Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T22:23:34.120Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T22:23:35.800Z] ::1 - GET / - Status: 200 - Size: 1062 bytes
+[2025-10-19T22:23:38.273Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T22:23:41.426Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T22:26:20.323Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T22:26:35.947Z] ::1 - GET /admin/logs - Status: 200 - Size: 0 bytes
+[2025-10-19T23:33:48.715Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T23:33:48.722Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:33:48.722Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T23:33:48.723Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T23:33:50.462Z] ::1 - GET / - Status: 200 - Size: 1062 bytes
+[2025-10-19T23:33:53.288Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:34:18.047Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:34:21.580Z] ::1 - GET /admin/sad - Status: 404 - Size: 0 bytes
+[2025-10-19T23:38:35.400Z] ::1 - POST /admin/config - Status: 200 - Size: 242 bytes
+[2025-10-19T23:38:35.402Z] Configuración actualizada
+[2025-10-19T23:38:36.413Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T23:38:36.415Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:38:36.416Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T23:38:36.416Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T23:38:39.268Z] ::1 - GET /admin/logs - Status: 200 - Size: 0 bytes
+[2025-10-19T23:42:15.773Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T23:42:15.780Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:42:15.780Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T23:42:15.781Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T23:42:17.671Z] ::1 - GET / - Status: 200 - Size: 1062 bytes
+[2025-10-19T23:42:21.748Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:42:25.907Z] ::1 - POST /admin/config - Status: 200 - Size: 242 bytes
+[2025-10-19T23:42:25.908Z] Configuración actualizada
+[2025-10-19T23:42:26.926Z] 🚀 Servidor web iniciado en puerto 3001
+[2025-10-19T23:42:26.927Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:42:26.930Z] 🌐 Accede a: http://localhost:3001
+[2025-10-19T23:42:26.932Z] ⚙️ Admin: http://localhost:3001/admin
+[2025-10-19T23:45:41.074Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T23:45:41.082Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:45:41.083Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T23:45:41.084Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T23:45:44.278Z] ::1 - GET / - Status: 200 - Size: 1062 bytes
+[2025-10-19T23:45:45.783Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:45:50.595Z] ::1 - POST /login - Status: 200 - Size: 34 bytes
+[2025-10-19T23:45:50.596Z] Sesión iniciada para usuario: admin desde ::1
+[2025-10-19T23:45:50.773Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:45:57.619Z] ::1 - POST /admin/config - Status: 200 - Size: 242 bytes
+[2025-10-19T23:45:57.620Z] Configuración actualizada
+[2025-10-19T23:45:58.636Z] Reiniciando servidor con nueva configuración...
+[2025-10-19T23:45:58.642Z] 🚀 Servidor web iniciado en puerto 3001
+[2025-10-19T23:45:58.644Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:45:58.647Z] 🌐 Accede a: http://localhost:3001
+[2025-10-19T23:45:58.649Z] ⚙️ Admin: http://localhost:3001/admin
+[2025-10-19T23:46:10.276Z] ::1 - GET / - Status: 200 - Size: 1062 bytes
+[2025-10-19T23:46:10.519Z] ::1 - GET /favicon.ico - Status: 404 - Size: 0 bytes
+[2025-10-19T23:46:11.762Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:46:54.978Z] ::1 - GET /admin/ - Status: 200 - Size: 0 bytes
+[2025-10-19T23:47:00.837Z] ::1 - GET /admin/lgos - Status: 404 - Size: 0 bytes
+[2025-10-19T23:47:03.994Z] ::1 - GET /admin/logs - Status: 200 - Size: 0 bytes
+[2025-10-19T23:47:13.777Z] ::1 - GET /admin/config - Status: 200 - Size: 0 bytes
+[2025-10-19T23:47:21.397Z] Sesión cerrada para usuario: admin desde ::1
+[2025-10-19T23:47:21.398Z] ::1 - GET /logout - Status: 302 - Size: 0 bytes
+[2025-10-19T23:47:21.405Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:47:26.304Z] ::1 - GET /admin/logs - Status: 401 - Size: 0 bytes
+[2025-10-19T23:50:33.528Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T23:50:33.536Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:50:33.538Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T23:50:33.539Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T23:50:35.646Z] ::1 - GET / - Status: 200 - Size: 1062 bytes
+[2025-10-19T23:50:39.422Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:50:41.843Z] ::1 - POST /login - Status: 200 - Size: 34 bytes
+[2025-10-19T23:50:41.845Z] Sesión iniciada para usuario: admin desde ::1
+[2025-10-19T23:50:41.868Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:50:49.668Z] ::1 - GET /admin/logs - Status: 200 - Size: 0 bytes
+[2025-10-19T23:51:02.031Z] ::1 - POST /admin/config - Status: 200 - Size: 242 bytes
+[2025-10-19T23:51:02.032Z] Configuración actualizada
+[2025-10-19T23:51:03.040Z] Reiniciando servidor con nueva configuración...
+[2025-10-19T23:51:03.046Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T23:51:03.048Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:51:03.050Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T23:51:03.054Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T23:51:03.443Z] ::1 - POST /admin/config - Status: 200 - Size: 242 bytes
+[2025-10-19T23:51:03.443Z] Configuración actualizada
+[2025-10-19T23:51:04.449Z] Reiniciando servidor con nueva configuración...
+[2025-10-19T23:51:04.458Z] 🚀 Servidor web iniciado en puerto 3000
+[2025-10-19T23:51:04.467Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:51:04.482Z] 🌐 Accede a: http://localhost:3000
+[2025-10-19T23:51:04.489Z] ⚙️ Admin: http://localhost:3000/admin
+[2025-10-19T23:51:08.634Z] ::1 - POST /admin/config - Status: 200 - Size: 242 bytes
+[2025-10-19T23:51:08.634Z] Configuración actualizada
+[2025-10-19T23:51:09.649Z] Reiniciando servidor con nueva configuración...
+[2025-10-19T23:51:09.656Z] 🚀 Servidor web iniciado en puerto 3001
+[2025-10-19T23:51:09.660Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:51:09.670Z] 🌐 Accede a: http://localhost:3001
+[2025-10-19T23:51:09.671Z] ⚙️ Admin: http://localhost:3001/admin
+[2025-10-19T23:51:17.332Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:51:28.779Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:51:38.829Z] Sesión cerrada para usuario: admin desde ::1
+[2025-10-19T23:51:38.830Z] ::1 - GET /logout - Status: 302 - Size: 0 bytes
+[2025-10-19T23:51:38.837Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:51:41.663Z] ::1 - GET /admin/logs - Status: 401 - Size: 0 bytes
+[2025-10-19T23:51:47.180Z] ::1 - POST /login - Status: 200 - Size: 34 bytes
+[2025-10-19T23:51:47.180Z] Sesión iniciada para usuario: admin desde ::1
+[2025-10-19T23:51:47.201Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:51:59.840Z] ::1 - GET /admin/logs - Status: 200 - Size: 0 bytes
+[2025-10-19T23:54:15.334Z] Servidor web iniciado en puerto 3000
+[2025-10-19T23:54:15.342Z] Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:54:15.343Z] Accede a: http://localhost:3000
+[2025-10-19T23:54:15.344Z] Admin: http://localhost:3000/admin
+[2025-10-19T23:54:16.738Z] ::1 - GET / - Status: 200 - Size: 1062 bytes
+[2025-10-19T23:54:20.627Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:54:22.785Z] ::1 - POST /login - Status: 200 - Size: 34 bytes
+[2025-10-19T23:54:22.786Z] Sesión iniciada para usuario: admin desde ::1
+[2025-10-19T23:54:22.816Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:54:27.933Z] ::1 - POST /admin/config - Status: 200 - Size: 242 bytes
+[2025-10-19T23:54:27.934Z] Configuración actualizada
+[2025-10-19T23:54:28.952Z] Reiniciando servidor con nueva configuración...
+[2025-10-19T23:54:28.960Z] Servidor web iniciado en puerto 3001
+[2025-10-19T23:54:28.961Z] Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:54:28.968Z] Accede a: http://localhost:3001
+[2025-10-19T23:54:28.976Z] Admin: http://localhost:3001/admin
+[2025-10-19T23:54:44.184Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:54:47.453Z] ::1 - GET /admin/logs - Status: 200 - Size: 0 bytes
+[2025-10-19T23:54:55.330Z] Sesión cerrada para usuario: admin desde ::1
+[2025-10-19T23:54:55.332Z] ::1 - GET /logout - Status: 302 - Size: 0 bytes
+[2025-10-19T23:54:55.339Z] ::1 - GET /admin - Status: 200 - Size: 0 bytes
+[2025-10-19T23:54:59.691Z] ::1 - GET /admin/logs - Status: 401 - Size: 0 bytes
+[2025-10-19T23:55:03.315Z] ::1 - GET /admin/config - Status: 401 - Size: 0 bytes
+[2025-10-19T23:55:13.819Z] ::1 - GET /admin/public/index.html - Status: 401 - Size: 0 bytes

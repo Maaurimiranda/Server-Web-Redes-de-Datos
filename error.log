@@ -1,0 +1,16 @@
+[2025-10-19T22:15:39.315Z] ERROR: Archivo no encontrado: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public\favicon.ico
+[2025-10-19T22:19:16.276Z] ERROR: Archivo no encontrado: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public\admin\document\passwrd
+[2025-10-19T22:19:28.160Z] ERROR: Archivo no encontrado: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public\admin\etc\passwrd
+[2025-10-19T22:21:12.441Z] ERROR: Archivo no encontrado: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public\etc\etc\passwd
+[2025-10-19T22:23:13.347Z] ERROR: Error del servidor: listen EADDRINUSE: address already in use :::3000
+[2025-10-19T23:34:21.581Z] ERROR: Archivo no encontrado: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public\admin\sad
+[2025-10-19T23:38:47.924Z] ::1 - POST /admin/config - Status: 200 - Size: 241 bytes
+[2025-10-19T23:38:47.925Z] Configuración actualizada
+[2025-10-19T23:38:48.939Z] ERROR: Error del servidor: listen EADDRINUSE: address already in use :::3000
+[2025-10-19T23:38:53.084Z] ::1 - POST /admin/config - Status: 200 - Size: 241 bytes
+[2025-10-19T23:38:53.085Z] Configuración actualizada
+[2025-10-19T23:38:54.100Z] 🚀 Servidor web iniciado en puerto 3001
+[2025-10-19T23:38:54.103Z] 📁 Document Root: C:\1. PERSONAL DEVELOPER\Redes de Datos\servidor-web\public
+[2025-10-19T23:38:54.106Z] 🌐 Accede a: http://localhost:3001
+[2025-10-19T23:38:54.110Z] ⚙️ Admin: http://localhost:3001/admin
+[2025-10-19T23:41:43.146Z] ERROR: Error del servidor: listen EADDRINUSE: address already in use :::3000
