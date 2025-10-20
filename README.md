@@ -1,7 +1,3 @@
-### Prueba 4: Verificar Sistema de Login y Sesiones
-
-**Paso 1# 🌐 Servidor Web Implementado en Node.js
-
 **Trabajo Práctico N°7 - Redes de Datos**  
 *Implementación de aplicaciones*
 
@@ -20,20 +16,20 @@
 
 ---
 
-## 📖 Descripción General
+## Descripción General
 
-El servidor cumple con los estándares HTTP y proporciona características de seguridad, administración y registro de accesos necesarias para un entorno de producción educativo.
+El servidor cumple con los estándares HTTP y proporciona características de seguridad, administración y registro de accesos.
 
 **Objetivos principales:**
-- Servir contenido web mediante protocolo HTTP
-- Registrar y auditar acceso a recursos
-- Proteger la integridad del servidor mediante medidas de seguridad
-- Proporcionar interfaz de administración web intuitiva
-- Implementar autenticación para recursos sensibles
+- Soporte para protocolo http.
+- Registro de información (Logging).
+- Medidas de seguridad varias, por ejemplo: bloquear el acceso a cualquier directorio que no esté en el DocumentRoot (en la raíz del sitio Web).
+- Interfaz para configurar todos los parámetros del servidor (puede ser vía web)
+- Protección de directorios mediante usuario y contraseña.
 
 ---
 
-## 📝 Requisitos del Trabajo Práctico
+## Requisitos del Trabajo Práctico
 
 ### 1. Soporte para Protocolo HTTP
 
@@ -43,7 +39,7 @@ El servidor cumple con los estándares HTTP y proporciona características de se
 ```javascript
 const server = http.createServer(handleRequest);
 server.listen(config.port, () => {
-  log(`🚀 Servidor web iniciado en puerto ${config.port}`);
+  log(`Servidor web iniciado en puerto ${config.port}`);
 });
 ```
 
@@ -159,26 +155,26 @@ Resultado: 403 - Forbidden (bloqueado)
 
 **Panel de Administración incluye:**
 
-#### 📊 Estado del Servidor
+#### Estado del Servidor
 - Puerto actual
 - Ruta del DocumentRoot
 - Ubicación de archivos de logs
 - Hora de inicio del servidor
 
-#### ⚙️ Configurar Servidor
+#### Configurar Servidor
 Campos configurables:
 - **Puerto:** Número de puerto donde escucha el servidor
 - **Document Root:** Ruta a la carpeta de archivos públicos
 - **Archivo de Logs:** Ubicación del archivo de registro de accesos
 - **Directorios Protegidos:** Configuración JSON de rutas protegidas
 
-#### 🔐 Directorios Protegidos
+#### Directorios Protegidos
 Muestra la lista de:
 - Rutas protegidas
 - Usuarios autorizados
 - Métodos de autenticación
 
-#### 📊 Ver Logs
+#### Ver Logs
 - Visualización en tiempo real de los logs de acceso
 - Útil para auditoría y debugging
 
@@ -251,7 +247,7 @@ function validateSession(token) {
 2. Se abre un diálogo de autenticación del navegador
 3. Ingresa usuario: `admin`
 4. Ingresa contraseña: `password123`
-5. Acceso concedido ✅
+5. Acceso concedido 
 
 **Implementación técnica:**
 ```javascript
@@ -277,80 +273,12 @@ function checkAuth(reqPath, authHeader) {
 
 ---
 
-## 🔐 Comparativa: Dos Métodos de Autenticación
 
-| Característica | Panel Admin | Directorios Protegidos |
-|---|---|---|
-| **Método** | Sesión + Token | HTTP Basic Auth |
-| **Login** | Página personalizada | Diálogo del navegador |
-| **Duración** | 1 hora | Por sesión del navegador |
-| **Uso** | Administración servidor | Proteger archivos específicos |
-| **Credenciales** | `admin/admin123` | `admin/password123` (por defecto) |
-| **Configuración** | Via código | Via JSON en panel admin |
-
----
-
-## 🎯 Características Implementadas
-
-| Característica | Estado | Descripción |
-|---|---|---|
-| Protocolo HTTP | ✅ | Servidor HTTP completo funcional |
-| Logging de Accesos | ✅ | Registra IP, método, URL, estado, tamaño |
-| Logging de Errores | ✅ | Captura errores del servidor |
-| Prevención Path Traversal | ✅ | Bloquea acceso fuera del DocumentRoot |
-| Panel Admin Web | ✅ | Interfaz gráfica de configuración |
-| Autenticación Básica | ✅ | Protección con usuario/contraseña |
-| Múltiples directorios protegidos | ✅ | Configurable vía JSON |
-| Reinicio dinámico | ✅ | Aplica configuración sin detener servidor |
-| Soporte MIME types | ✅ | Detecta tipo de contenido automáticamente |
-
----
-
-## 🚀 Instalación y Configuración
-
-### Requisitos Previos
-
-- **Node.js** v14.0.0 o superior ([Descargar](https://nodejs.org/))
-- **npm** (incluido con Node.js)
-- Editor de texto o IDE (VS Code recomendado)
-
-### Paso 1: Verificar Instalación de Node.js
-
-```bash
-node --version
-npm --version
-```
-
-Deberías ver versiones válidas.
-
-### Paso 2: Crear Carpeta del Proyecto
-
-```bash
-mkdir servidor-web
-cd servidor-web
-```
-
-### Paso 3: Crear Archivo del Servidor
-
-Crea un archivo llamado `server.js` en la carpeta `servidor-web` y copia el código completo del servidor.
-
-### Paso 4: Iniciar el Servidor
+### Iniciar el Servidor
 
 ```bash
 node server.js
 ```
-
-**Salida esperada:**
-```
-[2025-10-19T14:25:30.456Z] 🚀 Servidor web iniciado en puerto 3000
-[2025-10-19T14:25:30.457Z] 📁 Document Root: C:\ruta\servidor-web\public
-[2025-10-19T14:25:30.458Z] 🌐 Accede a: http://localhost:3000
-[2025-10-19T14:25:30.459Z] ⚙️ Admin: http://localhost:3000/admin
-```
-
-### Paso 5: Detener el Servidor
-
-Presiona `Ctrl + C` en la terminal.
 
 ---
 
@@ -365,182 +293,6 @@ Presiona `Ctrl + C` en la terminal.
 | `http://localhost:3000/privado` | Directorio protegido | Requiere autenticación |
 | `http://localhost:3000/admin/logs` | Ver logs de acceso | Visualiza registros |
 | `http://localhost:3000/admin/config` | Obtener configuración | JSON de config actual |
-
-### Acciones Básicas
-
-#### 1. Servir Página Web
-```
-1. Coloca un archivo HTML en: servidor-web/public/
-2. Accede desde el navegador: http://localhost:3000/archivo.html
-3. El servidor lo sirve automáticamente
-```
-
-#### 2. Ver Logs de Acceso
-```
-1. Opción A: Panel Admin → "📊 Ver Logs"
-2. Opción B: Abre el archivo server.log directamente
-```
-
-#### 3. Cambiar Configuración
-```
-1. Accede a: http://localhost:3000/admin
-2. Modifica los campos deseados
-3. Haz clic en "💾 Guardar Configuración"
-4. El servidor se reinicia automáticamente
-```
-
-#### 4. Acceder a Área Protegida
-```
-1. Navega a: http://localhost:3000/privado
-2. Ingresa usuario: admin
-3. Ingresa contraseña: password123
-4. Acceso concedido
-```
-
----
-
-## 🧪 Demostración de Funcionalidades
-
-### Prueba 1: Verificar HTTP Funcional
-
-**Paso 1:** Abre navegador
-```
-URL: http://localhost:3000
-```
-
-**Resultado esperado:** ✅ Página principal carga correctamente
-
-**Registro en server.log:**
-```
-[2025-10-19T14:30:00.000Z] 127.0.0.1 - GET / - Status: 200 - Size: 1500 bytes
-```
-
----
-
-### Prueba 2: Verificar Logging
-
-**Paso 1:** Realiza varias acciones en el servidor
-- Accede a la página principal
-- Intenta acceder a un archivo no existente
-- Accede al panel admin
-
-**Paso 2:** Revisa los logs
-
-Opción A - Panel Admin:
-```
-http://localhost:3000/admin → Sección "📊 Ver Logs"
-```
-
-Opción B - Archivo directo:
-```
-Abre: servidor-web/server.log
-```
-
-**Registro esperado:**
-```
-[2025-10-19T14:30:15.123Z] 127.0.0.1 - GET / - Status: 200 - Size: 1500 bytes
-[2025-10-19T14:30:18.456Z] 127.0.0.1 - GET /noexiste.html - Status: 404 - Size: 0 bytes
-[2025-10-19T14:30:22.789Z] 127.0.0.1 - GET /admin - Status: 200 - Size: 5000 bytes
-```
-
----
-
-### Prueba 3: Verificar Seguridad (Path Traversal)
-
-**Paso 1:** Intenta acceder a archivo fuera del DocumentRoot
-
-```
-URL: http://localhost:3000/../../../etc/passwd
-```
-
-**Resultado esperado:** ❌ **403 - Forbidden**
-
-**Registro en server.log:**
-```
-[2025-10-19T14:30:30.000Z] 127.0.0.1 - GET /../../../etc/passwd - Status: 403 - Size: 0 bytes
-```
-
-**Registro en error.log:**
-```
-[2025-10-19T14:30:30.000Z] ERROR: Intento de acceso fuera del DocumentRoot: /../../../etc/passwd desde 127.0.0.1
-```
-
----
-
-### Prueba 4: Verificar Protección por Contraseña
-
-**Paso 1:** Intenta acceder sin autenticación
-```
-URL: http://localhost:3000/privado
-```
-
-**Resultado esperado:** ❌ Diálogo de autenticación aparece
-
-**Registro en server.log:**
-```
-[2025-10-19T14:31:00.000Z] 127.0.0.1 - GET /privado - Status: 401 - Size: 0 bytes
-```
-
-**Paso 2:** Ingresa credenciales
-- Usuario: `admin`
-- Contraseña: `password123`
-
-**Resultado esperado:** ✅ Acceso concedido
-
-**Registro en server.log:**
-```
-[2025-10-19T14:31:05.000Z] 127.0.0.1 - GET /privado - Status: 200 - Size: 200 bytes
-```
-
----
-
-### Prueba 5: Verificar Panel de Administración
-
-**Paso 1:** Accede al panel admin
-```
-URL: http://localhost:3000/admin
-```
-
-**Resultado esperado:** ✅ Panel se carga con información del servidor
-
-**Secciones visibles:**
-- 📋 Estado del Servidor
-- 🔐 Directorios Protegidos
-- ⚙️ Configurar Servidor
-- 📊 Ver Logs
-
-**Paso 2:** Modifica la configuración
-- Ejemplo: Cambia el puerto a 8080
-- Haz clic en "💾 Guardar Configuración"
-
-**Resultado esperado:** ✅ Servidor se reinicia automáticamente en nuevo puerto
-
-**Acceso nuevo:** `http://localhost:8080/admin`
-
----
-
-## 📁 Estructura del Proyecto
-
-```
-servidor-web/
-│
-├── server.js                    ← Código principal del servidor
-│
-├── public/                      ← Document Root (carpeta de archivos públicos)
-│   ├── index.html              ← Página principal
-│   └── privado/                ← Directorio protegido por contraseña
-│       └── index.html
-│
-├── server.log                   ← Registro de accesos HTTP
-│
-└── error.log                    ← Registro de errores
-
-```
-
-**Archivos generados automáticamente:**
-- `public/` - Se crea automáticamente en primer inicio
-- `server.log` - Se crea en primer acceso
-- `error.log` - Se crea cuando ocurre un error
 
 ---
 
@@ -563,31 +315,6 @@ const url = require('url');        // Parsear URLs
 const crypto = require('crypto');  // Operaciones criptográficas
 ```
 
-### Códigos HTTP Implementados
-
-| Código | Descripción | Cuando se usa |
-|---|---|---|
-| **200** | OK | Archivo servido exitosamente |
-| **401** | Unauthorized | Autenticación requerida pero no válida |
-| **403** | Forbidden | Acceso denegado (fuera DocumentRoot) |
-| **404** | Not Found | Archivo no existe |
-
-### MIME Types Soportados
-
-```javascript
-{
-  '.html': 'text/html',
-  '.css': 'text/css',
-  '.js': 'application/javascript',
-  '.json': 'application/json',
-  '.png': 'image/png',
-  '.jpg': 'image/jpeg',
-  '.gif': 'image/gif',
-  '.svg': 'image/svg+xml',
-  '.txt': 'text/plain',
-  '.pdf': 'application/pdf'
-}
-```
 
 ### Autenticación HTTP Básica
 
@@ -622,26 +349,6 @@ Petición HTTP recibida
 
 ---
 
-## 🎓 Conceptos de Redes Relacionados
-
-### Protocolo HTTP
-- **Definición:** Protocolo de transferencia de hipertexto basado en solicitud-respuesta
-- **Puerto:** 80 (nuestro servidor usa 3000 por ser desarrollo)
-- **Métodos:** GET, POST, PUT, DELETE, etc.
-- **Stateless:** Cada petición es independiente
-
-### Seguridad en Servidores Web
-- **Path Traversal:** Intento de acceder a archivos fuera de la raíz web
-- **Autenticación Básica:** Mecanismo simple de usuario/contraseña
-- **Auditoría (Logging):** Registro de acciones para detectar anomalías
-
-### Directorios Virtuales
-- **DocumentRoot:** Carpeta raíz donde el servidor sirve archivos públicos
-- **Aislamiento:** El servidor no expone archivos fuera de esta carpeta
-- **Separación:** Los archivos sensibles del SO quedan inaccesibles
-
----
-
 ## 📝 Notas para la Exposición Académica
 
 ### Puntos Clave a Destacar
@@ -652,31 +359,6 @@ Petición HTTP recibida
 4. **Administración:** Interfaz gráfica para gestionar sin tocar código
 5. **HTTP Estándar:** Cumple con protocolos estándar de la industria
 
-### Preguntas Posibles en Defensa
-
-**P: ¿Por qué usar Node.js?**
-R: Porque es asincrónico, eficiente para manejar múltiples conexiones y JavaScript permite código simple pero poderoso.
-
-**P: ¿Cómo se previenen ataques de path traversal?**
-R: Normalizando las rutas y validando que estén siempre dentro del DocumentRoot con `path.resolve()`.
-
-**P: ¿Qué sucede si se configura mal el DocumentRoot?**
-R: El servidor podría quedar no funcional, pero la validación de seguridad sigue protegiendo el acceso.
-
-**P: ¿Por qué logging es importante?**
-R: Para auditoría, debugging, detección de patrones sospechosos y compliance normativo.
-
----
-
-## 📚 Referencias
-
-- [Node.js Documentation](https://nodejs.org/docs/)
-- [RFC 7231 - HTTP Semantics](https://tools.ietf.org/html/rfc7231)
-- [OWASP - Path Traversal](https://owasp.org/www-community/attacks/Path_Traversal)
-- [HTTP Basic Authentication - RFC 7617](https://tools.ietf.org/html/rfc7617)
-
 ---
 
 **Autor:** TP Nº7 - Grupo de Redes de Datos  
-**Fecha:** Octubre 2025  
-**Licencia:** Educacional (MIT)
