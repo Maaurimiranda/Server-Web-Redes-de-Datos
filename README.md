@@ -7,11 +7,7 @@
 
 - [Descripción General](#descripción-general)
 - [Requisitos del Trabajo Práctico](#requisitos-del-trabajo-práctico)
-- [Características Implementadas](#características-implementadas)
-- [Instalación y Configuración](#instalación-y-configuración)
 - [Uso del Servidor](#uso-del-servidor)
-- [Demostración de Funcionalidades](#demostración-de-funcionalidades)
-- [Estructura del Proyecto](#estructura-del-proyecto)
 - [Detalles Técnicos](#detalles-técnicos)
 
 ---
